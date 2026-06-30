@@ -1,6 +1,6 @@
 # 🛡️ DisasterGuard AI — Backend
 
-Express.js + TypeScript REST API for the DisasterGuard AI early warning system.
+Express.js + TypeScript REST API for the DisasterGuard AI early warning system. **Deployed on Vercel as a serverless function.**
 
 ## 🚀 Tech Stack
 
@@ -8,7 +8,8 @@ Express.js + TypeScript REST API for the DisasterGuard AI early warning system.
 |-------|-----------|
 | Runtime | Node.js + TypeScript |
 | Framework | Express.js |
-| Database | MongoDB (Mongoose) |
+| Deployment | Vercel (Serverless) |
+| Database | MongoDB Atlas (Mongoose) |
 | Auth | JWT (JSON Web Tokens) + bcrypt |
 | Email | Nodemailer (SMTP) |
 | Weather | Open-Meteo API (free, no key needed) |
